@@ -19,7 +19,7 @@ if (badgeNum >1000 || badgeNum < 100)
         document.getElementById("loginStatus").innerHTML = "Invalid Badge Code"; 
     }
 //IF CREDENTIALS ARE TRUE, ACCESS TO NEXT PAGE GRANTED
-else if(firstandlastName.length <= 20 || firstandlastName.length >=4) 
+else if(firstandlastName.length <= 20 || firstandlastName.length <=4) 
     {
     document.getElementById("loginStatus").innerHTML = "First and Last Name " + firstandlastName + " " + badgeNum;
     alert("ACCES GRANTED - PRESS OKAY TO CONINUE TO NEXT PAGE");
